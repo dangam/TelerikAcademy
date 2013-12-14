@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 1</title>
+	<style>
+		div {
+			padding-left: 15px;
+		}
+		#result {
+			margin-top: 50px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="divs">
+		Div 1
+		<div class="divs">
+			Div 1.1
+		</div>
+		<div class="divs">
+			Div 1.2
+		</div>
+		<div class="divs">
+			Div 1.3
+		</div>
+	</div>
+	<div class="divs">
+		Div 2
+		<div class="divs">
+			Div 2.1
+		</div>
+		<div class="divs">
+			Div 2.2
+		</div>
+		<div class="divs">
+			Div 2.3
+		</div>
+	</div>
+	<div class="divs">
+		Div 3
+		<div class="divs">
+			Div 2.1
+		</div>
+		<div class="divs">
+			Div 2.2
+		</div>
+		<div class="divs">
+			Div 2.3
+		</div>
+	</div>
+	<div id="result">RESULT: <br /></div>
+	<script type="text/javascript">
+		var divs = document.querySelectorAll("div > div");
+		var result = document.getElementById('result');
+		for (var i = 0; i < divs.length; i++) {
+			result.innerHTML += divs[i].innerHTML;
+		}
+	</script>
+</body>
+</html>

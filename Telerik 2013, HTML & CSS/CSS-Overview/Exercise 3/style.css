@@ -1,0 +1,30 @@
+body {
+    background-color: #a9a9a9;
+    font-family: "Times New Roman", serif;
+}
+h1 {
+    color: #fff;
+}
+#header {
+    text-align: center;
+}
+#header h1 {
+    color: #FFF;
+    font-size: 40px;
+}
+nav a {
+    color: #fff;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.current {
+    background-color: #d3d3d3;
+}
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+#footer {
+    text-align: center;
+}

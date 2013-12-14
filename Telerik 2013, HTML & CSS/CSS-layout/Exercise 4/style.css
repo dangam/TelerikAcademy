@@ -1,0 +1,163 @@
+body
+{
+    background-color: #f0f0f0;
+}
+ul li
+{
+    list-style: none;
+
+}	
+ul li a
+{
+    text-decoration: none;
+    color: grey;	
+}
+ul li a:hover
+{
+    text-decoration: underline;
+}
+.menu-title
+{
+    color:#8b0000;
+    font-weight:bold;
+}
+#left
+{
+    float:left;
+}
+#middle
+{
+    float:left;
+    width:600px;
+    background-color:white;
+    border:1px solid gray;
+    margin-left:20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+#right
+{
+    float:left;
+    width:170px;
+    padding-left:20px;
+    text-align: center;
+    margin-top: -10px;
+}
+nav 
+{
+    margin-top: 20px;
+}
+nav a 
+{
+    color: grey;
+    display: block;
+    text-decoration: none;
+}
+.middle-title
+{
+    width:90%;
+    background-color:#3a3a3a;
+    font-weight:bold;
+    color:white;
+}
+
+.middle-link
+{
+    color:#8b0000;
+    font-weight:200;
+
+}
+.box
+{
+    width:170px;
+    background-color: white;
+    border:1px solid gray;
+    margin-top:10px;
+    padding-bottom: 10px;
+}
+
+.box a
+{
+    padding:5px;
+    color:#8b0000; 	
+}
+
+#search
+{
+    width:170px;
+    background-color: white;
+    border:1px solid gray;
+    margin-top:10px;
+    padding-bottom: 10px;
+}
+#search a
+{
+
+    color:#8b0000;
+}
+#search-form {
+    margin-top: 10px;
+}
+#webhosting
+{
+    width:170px;
+    background-color: white;
+    border:1px solid gray;
+    margin-top:10px;
+    padding-bottom: 10px;
+}
+#webhosting a
+{
+    margin-bottom:-5px;
+    color:#8b0000;
+}
+.art-box {
+    padding-bottom: 10px;
+}
+.art-title
+{
+    width:100%;
+    background-color:#3a3a3a;
+    color:white;
+    font-weight:bold;
+}
+.art-img {
+    width: 131px;
+    display: inline-block;
+    float: left;
+}
+.art-img img {
+    width: 131px;
+    height: 108px;
+}
+.art-text {
+    font-weight: bold;
+    width: 450px;
+    display: inline-block;
+    float: left;
+}
+.art-text-full {
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+label
+{
+    width:auto;
+    margin-left:5px;
+    padding:5px;
+    background-color:white;
+    border:1px solid black;
+    cursor:pointer;
+}
+h1 {
+    margin-top: 0px;
+}
+button {
+    background-color: #fff;
+    border: 1px solid grey;
+}

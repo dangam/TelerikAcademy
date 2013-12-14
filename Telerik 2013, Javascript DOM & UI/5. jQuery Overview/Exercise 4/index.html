@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 4</title>
+	<script type="text/javascript" src="../jquery.js"></script>
+</head>
+<body>
+    <input type="color" id="color">
+    <button id="change">Change</button>
+    <script type="text/javascript">
+        $('#change').click(function(e){
+            var color = $('#color').val();
+            e.preventDefault();
+            $('body').css({
+                'background-color' : color
+            });
+        })
+    </script>
+</body>
+</html>

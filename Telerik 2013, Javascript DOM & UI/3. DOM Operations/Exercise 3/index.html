@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 3</title>
+</head>
+<body>
+	<label for="colorFont">Font Color: </label>
+	<input type="color" name="colorFont" id="colorFont">
+	<label for="colorBackground">Background Color: </label>
+	<input type="color" name="colorBackground" id="colorBackground">
+	<button id="button">Change!</button><br />
+	<textarea id="textarea" style="height: 300px; width: 400px; resize: none;" ></textarea>
+	<script type="text/javascript">
+	(function () { 
+		var colorfont = document.getElementById('colorFont');
+		var colorbg = document.getElementById('colorBackground');
+		var textarea = document.getElementById('textarea');
+		var btn = document.getElementById('button');
+
+		btn.addEventListener("click", function(e) {
+			var style = textarea.style;
+
+			style.color = colorfont.value;
+			style.background = colorbg.value;
+		});
+	}())
+	</script>
+</body>
+</html>

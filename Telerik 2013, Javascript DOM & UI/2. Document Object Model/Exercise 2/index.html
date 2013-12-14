@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 2</title>
+</head>
+<body>
+	<input type="text" id="inputText">
+	<button id="check">Submit</button>
+	<div id="result"></div>
+	<script>
+		var val = document.getElementById('inputText');
+		var button = document.getElementById('check');
+		var result = document.getElementById('result');
+		button.addEventListener("click", function() {
+			result.innerHTML = "You wrote: " + val.value;
+		})
+	</script>
+</body>
+</html>

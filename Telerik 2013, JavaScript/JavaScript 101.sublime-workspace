@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"bakground-c",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"img",
+				"imggg"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"color",
+				"colorfont"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"div",
+				"divClass"
+			],
+			[
+				"heropo",
+				"heroposition"
+			],
+			[
+				"heo",
+				"heroposition"
+			],
+			[
+				"ke",
+				"keyCode"
+			],
+			[
+				"lazerp",
+				"lazerPointIndex"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"rig",
+				"rightCol"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"email",
+				"emailArr"
+			],
+			[
+				"js",
+				"jsConsole"
+			],
+			[
+				"wr",
+				"writeLine"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Daniel/Documents/GitHub/Team-Toad/game.html",
+			"settings":
+			{
+				"buffer_size": 2153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Documents/GitHub/Team-Toad/styles/styles.css",
+			"settings":
+			{
+				"buffer_size": 2381,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Documents/GitHub/Team-Toad/index.html",
+			"settings":
+			{
+				"buffer_size": 1507,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Documents/GitHub/Team-Toad/Script/script.js",
+			"settings":
+			{
+				"buffer_size": 23355,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Server/www/archtech/public/stylesheets/style.styl",
+		"/C/wamp/www/THEWORK/cart.php",
+		"/C/Users/Daniel/Documents/GitHub/Team-Toad/Script/script.js",
+		"/C/Users/Daniel/Documents/GitHub/Team-Toad/index.html",
+		"/C/Server/www/archtech/views/index.ejs",
+		"/C/Server/www/archtech/public/javascripts/script.js",
+		"/C/Users/Daniel/Documents/GitHub/Team-Toad/styles/styles.css",
+		"/C/Users/Daniel/Documents/GitHub/Team-Toad/game.html",
+		"/C/wamp/www/THEWORK/main.css",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/5. jQuery Overview/Exercise 2/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/5. jQuery Overview/Exercise 3/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/5. jQuery Overview/Exercise 4/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/7. Canvas/Exercise 2/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/5. jQuery Overview/Exercise 1/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/7. Canvas/Exercise 2/style.css",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/7. Canvas/Excercise 1/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/7. Canvas/Excercise 1/canvasplus1-1.js",
+		"/C/Server/www/Design/css/style.css",
+		"/C/Server/www/archtech/app.js",
+		"/C/Server/www/archtech/public/stylesheets/style.css",
+		"/C/Server/www/archtech/routes/index.js",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/6. Templates/Exercise 1/index.html",
+		"/C/wamp/www/THEWORK/browse.php",
+		"/C/wamp/www/THEWORK/product.php",
+		"/C/Server/www/Design/index.html",
+		"/D/TELERIK/Javascript DOM & UI/6. Templates-demos/7. html-templates.html",
+		"/C/wamp/www/THEWORK/functions.js",
+		"/C/wamp/www/THEWORK/search.php",
+		"/C/wamp/www/THEWORK/__functions.php",
+		"/C/Server/www/archtech/index.html",
+		"/C/Server/www/archtech/routes/user.js",
+		"/C/wamp/www/THEWORK/footer_menu.php",
+		"/C/wamp/www/THEWORK/index.php",
+		"/C/wamp/www/THEWORK/__footer.php",
+		"/C/Server/www/index.html",
+		"/C/Server/www/app.js",
+		"/C/Server/nginx/conf/nginx.conf",
+		"/C/wamp/www/THEWORK/warehouse.php",
+		"/C/wamp/www/THEWORK/rechek/temp/product.php",
+		"/C/wamp/www/THEWORK/rechek/product.php",
+		"/C/wamp/www/THEWORK/rechek/temp/syncProduct.php",
+		"/C/wamp/www/THEWORK/mobilna/golema/index.php",
+		"/C/wamp/www/THEWORK/rechek/temp/__footer.php",
+		"/C/wamp/www/THEWORK/rechek/temp/ajax_statistic.php",
+		"/C/wamp/www/THEWORK/rechek/temp/syncProduct",
+		"/C/wamp/www/THEWORK/mobilna/en/index.php",
+		"/C/wamp/www/THEWORK/mobilna/product_details.php",
+		"/C/wamp/www/THEWORK/mobilna/en/product_details.php",
+		"/C/wamp/www/THEWORK/mobilna/index.php",
+		"/C/wamp/www/THEWORK/__menu_left.php",
+		"/C/wamp/www/THEWORK/mobilna/golema/product_details.php",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/4. JavaScript Event Model/Exercise 1/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/5. jQuery Overview/Exercise 1/style.css",
+		"/C/wamp/www/THEWORK/product_details.php",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/5. jQuery Overview/Exercise 1/style.cs",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/5. jQuery Overview/Exercise 1/index",
+		"/C/wamp/www/THEWORK/__top.php",
+		"/C/wamp/www/THEWORK/_top.php",
+		"/C/wamp/www/THEWORK/etiket_grupa.php",
+		"/C/wamp/www/THEWORK/adv_menu.php",
+		"/C/wamp/www/THEWORK/adv.php",
+		"/C/Server/www/index.php",
+		"/C/wamp/www/THEWORK/sss/__top.php",
+		"/C/wamp/www/THEWORK/sss/orders.php",
+		"/C/wamp/www/THEWORK/sss/orders_delivery.php",
+		"/C/wamp/www/THEWORK/sss/orders_statistik.php",
+		"/C/wamp/www/THEWORK/sss/users.php",
+		"/C/wamp/www/THEWORK/artikul.php",
+		"/C/wamp/www/THEWORK/lia/__top.php",
+		"/C/wamp/www/THEWORK/kategoriq.php",
+		"/C/wamp/www/THEWORK/order/order_admin.php",
+		"/C/wamp/www/THEWORK/order/admin_functions.js",
+		"/C/wamp/www/THEWORK/order/orders.php",
+		"/C/NGINX/html/index.php",
+		"/C/wamp/www/THEWORK/main.php",
+		"/C/wamp/www/THEWORK/__products.php",
+		"/C/wamp/www/THEWORK/index_id.php",
+		"/C/wamp/www/THEWORK/new_crop_products.php",
+		"/C/wamp/www/THEWORK/jquery.serialScroll-1.2.2.js",
+		"/C/wamp/www/THEWORK/ex/product_details.php",
+		"/C/wamp/www/THEWORK/ex/__footer.php",
+		"/C/wamp/www/THEWORK/jquery.scrollTo-min.js",
+		"/C/Users/Daniel/Downloads/jquery.scrollTo-1.4.3.1-min.js",
+		"/C/wamp/www/THEWORK/jquery.serialScroll-min.js",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/3.DOM Operations/Exercise 2/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/3.DOM Operations/Exercise 1/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/3.DOM Operations/Exercise 3/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/3.DOM Operations/Exercise 4/index.html",
+		"/D/TELERIK/Javascript DOM & UI/main.js",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/3.DOM Operations/Exercise 1/index.hmtl",
+		"/C/wamp/www/THEWORK/ajax_statistic.php",
+		"/C/wamp/www/THEWORK/__main_menu.php",
+		"/C/wamp/www/THEWORK/lia/sss/product_details.php",
+		"/C/wamp/www/THEWORK/lia/sss/__top.php",
+		"/C/Telerik/CSharp Part I/3. OperatorsExpressionsAndStatements/13. ExchangeBits/ExchangeBits.cs",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, JavaScript/1. Operators Expressions/Exercise 7/script.js",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, JavaScript/1. Operators Expressions/Exercise 8/script.js",
+		"/C/Telerik/CSharp Part I/3. OperatorsExpressionsAndStatements/12. ChangeBit/ChangeBit.cs",
+		"/C/Telerik/C# Book/III. Operators and Expressions/BitOnPosition/BitOnPosition/BitOnPosition.cs",
+		"/C/Telerik/C# Book/III. Operators and Expressions/ThirdBitOfInt/ThirdBitOfInt/ThirdBit.cs",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, JavaScript/1. Operators Expressions/Exercise 9/script.js",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, JavaScript/1. Operators Expressions/Exercise 6/script.js",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, JavaScript/1. Operators Expressions/Exercise 5/script.js",
+		"/C/wamp/www/THEWORK/lia/main.css",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, JavaScript/1. Operators Expressions/Exercise 1/script.js",
+		"/C/Users/Daniel/Desktop/4-operators/zad8.html",
+		"/C/Users/Daniel/Desktop/4-operators/zad6.html",
+		"/C/Users/Daniel/Desktop/4-operators/zad7.html",
+		"/C/Users/Daniel/Desktop/4-operators/zad5.html",
+		"/C/Users/Daniel/Desktop/4-operators/zad4.html",
+		"/C/Users/Daniel/Desktop/4-operators/zad3.html",
+		"/C/Users/Daniel/Desktop/4-operators/zad2.html",
+		"/C/Users/Daniel/Desktop/4-operators/zad1.html",
+		"/C/Users/Daniel/Desktop/4-operators/zad9.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/Exercise 1/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/Exercise 2/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/Exercise 3/index.html",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/Exercise 1/style/style.css",
+		"/C/wamp/www/SCHOOLTELERIK/Telerik 2013, Javascript DOM & UI/Exercise 1/scripts/script.js",
+		"/C/Users/Daniel/AppData/Local/Temp/Rar$EXa0.616/document-object-mode-demos/3. selecting-querySelector.html",
+		"/C/wamp/www/THEWORK/pimp/form_send_question.php",
+		"/C/wamp/www/THEWORK/pimp/form_contact_question.php",
+		"/C/wamp/www/THEWORK/pimp/register_form_small.php",
+		"/C/wamp/www/THEWORK/pimp/register_form.php",
+		"/C/wamp/www/THEWORK/pimp/login_form_small.php",
+		"/C/wamp/www/THEWORK/pimp/login.php",
+		"/C/wamp/www/THEWORK/pimp/order_details.php",
+		"/C/wamp/www/THEWORK/pimp/cart.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"options-ico",
+			";",
+			"}",
+			"{",
+			"></",
+			"footer_menu",
+			"\">",
+			"isOnline",
+			"администратори",
+			"Статистика",
+			"статистика",
+			"deleteOrder",
+			"изтрий",
+			"nomer",
+			"artikuli",
+			"prev",
+			">\n",
+			"();\n",
+			">\n",
+			"dimmed",
+			"vidove",
+			";\n",
+			"tag",
+			"intro",
+			"bose",
+			"lia",
+			"lia-",
+			"pimpfoun",
+			"pimp",
+			"lia",
+			"lia-d",
+			"artikul_box",
+			"artikul_big_img",
+			"\"\n",
+			"	                           			'&",
+			"etike",
+			"artikul_dop_img",
+			"artikul_img",
+			"lastseen",
+			"artikul-info",
+			"a",
+			"vidove",
+			"product-price",
+			"price_promo",
+			"write",
+			"top_menu_search",
+			"top_menu_search_",
+			"element",
+			";\n",
+			"n",
+			"jsConsole.writeLine",
+			"jsConsole.write",
+			"jsConsole.writeLine",
+			"jsConsole.write",
+			"Console.Write"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Daniel/Documents/GitHub/Team-Toad/game.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								769
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Daniel/Documents/GitHub/Team-Toad/styles/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1774,
+								1774
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1226.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Daniel/Documents/GitHub/Team-Toad/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								921,
+								921
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Daniel/Documents/GitHub/Team-Toad/Script/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21828,
+								21831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7539.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "JavaScript 101.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

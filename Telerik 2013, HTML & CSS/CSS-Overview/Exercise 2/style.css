@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#table {
+    border-collapse:collapse;
+    border: none !important;
+}
+thead{
+    height: 25px;
+    background-color: #5ec306; background-image: -webkit-gradient(linear, left top, left bottom, from(#5ec306), to(#4EB106));
+    background-image: -webkit-linear-gradient(top, #5ec306, #4EB106);
+    background-image: -moz-linear-gradient(top, #5ec306, #4EB106);
+    background-image: -ms-linear-gradient(top, #5ec306, #4EB106);
+    background-image: -o-linear-gradient(top, #5ec306, #4EB106);
+    background-image: linear-gradient(to bottom, #5ec306, #4EB106);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#5ec306, endColorstr=#4EB106);
+}
+thead tr td {
+    padding-left: 5px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom: 1px solid #3d8f0d;
+    border-right: 1px solid #3d8f0d;
+}
+thead tr td:nth-last-child(1){
+    border-right: none;
+}
+tbody tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #333;
+    padding-left: 5px;
+    font-size: 15px;
+    border-right: 1px solid #c4c3aa;
+}
+tbody tr td:nth-last-child(1){
+    border-right: none;
+}
+tbody tr:nth-child(2n){
+    background-color: #EEE;
+}
+.flag {
+    height: 15px;
+}

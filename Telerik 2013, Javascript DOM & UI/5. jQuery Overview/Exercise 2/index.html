@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 2</title>
+	<script type="text/javascript" src="../jquery.js"></script>
+</head>
+<body>
+   <div>Kill it before it lays eggs.</div>
+   <button id="before"> Append before </button>
+   <button id="after"> Append after </button>
+    <script>
+       $(document).ready(function(){
+
+       		$('#before').click(function(e){
+       			e.preventDefault();
+       			$('div').prepend('Please -->');
+       		});
+
+       		$('#after').click(function(e){
+       			e.preventDefault();
+       			$('div').append('<--- Do it fast');
+       		});
+
+       })
+    </script>
+</body>
+</html>

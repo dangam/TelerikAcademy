@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 3</title>
+</head>
+<body>
+	<input type="color" id="inputColor">
+	<button id="check">Submit</button>
+	<div id="result"></div>
+	<script>
+		var val = document.getElementById('inputColor');
+		var button = document.getElementById('check');
+		var result = document.getElementById('result');
+		button.addEventListener("click", function() {
+			document.body.style.backgroundColor = "#"+val.value;
+		})
+	</script>
+</body>
+</html>

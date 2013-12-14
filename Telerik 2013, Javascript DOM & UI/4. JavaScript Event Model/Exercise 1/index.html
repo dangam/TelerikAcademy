@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 1</title>
+	<style>
+		body {
+		  text-align: center;
+		  font-size: 12px;
+		}
+
+		#container {
+		  display: inline-block;
+		  text-align: left;
+		}
+
+		#todo-list {
+		  list-style: none;
+		}
+
+		.hidden {
+		  display: none;
+		}
+	</style>
+</head>
+<body>
+<div id="container" >
+    <h1>Todo List</h1>
+    <form id="create-todo" >
+      <input name="item" placeholder="What to do next?" required />
+      <button type="submit" >Add</button>
+    </form>
+    <div>
+      <button id="delete-item" >Delete</button>
+      <button id="hide-item" >Hide</button>
+      <button id="show-item" >Show All</button>
+    </div>
+    <ul id="todo-list" ></ul>
+</div>
+	<script type="text/javascript">
+		(function () {
+
+			  function addEventListener(selector, eventType, listener) {
+			    document.querySelector(selector).addEventListener(eventType, listener, false);
+			  }
+
+			  function toArray(list) {
+			    return Array.prototype.slice.apply(list || []);
+			  }
+
+			  var Todo = (function () {
+			    function getCheckedItems() {
+			      return toArray(list.querySelectorAll(':checked')).map(function (checkedEl) {
+			        return checkedEl.parentElement;
+			      });
+			    }
+			    var list = document.querySelector('#todo-list');
+
+			    return {
+			      addItem: function (content) {
+			        var todoItem = document.createElement('li'),
+			          itemCheckbox = document.createElement('input');
+
+			        itemCheckbox.type = 'radio';
+			        itemCheckbox.name = 'selected';
+			        todoItem.appendChild(itemCheckbox);
+
+			        todoItem.appendChild(document.createTextNode(content));
+
+			        list.appendChild(todoItem);
+			      },
+			      hideSelected: function () {
+			        getCheckedItems().forEach(function (item) {
+			          item.classList.add('hidden');
+			        });
+			      },
+			      showAll: function () {
+			        toArray(list.querySelectorAll('.hidden')).forEach(function (hidden) {
+			          hidden.classList.remove('hidden');
+			        });
+			      },
+			      deleteSelected: function () {
+			        getCheckedItems().forEach(function (item) {
+			          item.parentElement.removeChild(item);
+			        });
+			      }
+			    };
+			  })();
+
+			  addEventListener('#create-todo', 'submit', function (event) {
+			    event.preventDefault();
+
+			    Todo.addItem(event.target.item.value);
+			    event.target.item.value = '';
+			  });
+
+			  addEventListener('#delete-item', 'click', function (event) {
+			    Todo.deleteSelected();
+			  });
+
+			  addEventListener('#hide-item', 'click', function (event) {
+			    Todo.hideSelected();
+			  });
+
+			  addEventListener('#show-item', 'click', function (event) {
+			    Todo.showAll();
+			  });
+			})();
+	</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: #595959;
+    font-size: 13px;
+    color: #e5eca4;
+}
+a {
+    color: #e5eca4;
+    text-decoration: none;
+}
+#title {
+    color: #a6b1af;
+    font-size: 17px;
+}
+.def_t {
+    color: #fff;
+    font-size: 13px;
+    font-style: italic;
+}
+#name img{
+    width: 13px;
+    height: 13px;
+}
+#support {
+    color: red;
+    font-weight: bold;
+}
+.dark_text {
+    color: #b2afad;
+}
+#status {
+    color: #c8682a;
+    font-weight: bold;
+}

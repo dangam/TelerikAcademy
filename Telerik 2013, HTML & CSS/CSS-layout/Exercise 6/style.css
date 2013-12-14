@@ -1,0 +1,88 @@
+/* Created by TopStyle Trial - www.topstyle4.com */
+body
+{
+	background-color: #1e3741;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 13px;
+}
+ul {
+    margin-left: -50px;
+}
+ul li
+{
+	list-style-type: none;	
+	display:inline;	
+}
+
+ul li a
+{
+        text-decoration: none;
+	color: #8aa6a9;
+	background-color:#4b5f67;
+	padding: 10px;
+}
+.active {
+        color: white;
+	text-decoration: none;
+	background-color: transparent;
+	font-weight:bold;
+}
+ul li a:hover{
+	text-decoration: underline;
+}
+
+#information
+{
+	width:300px;
+	float:left;
+}
+
+#title
+{
+	width:300px;
+        padding-top: 10px;
+	height:30px;
+	background-color:#00968c;
+	font-weight:bold;
+	color: white;
+	text-align:center;
+}
+
+#reporter
+{
+    padding-top:13px;
+    width: 390px; 
+    height: 310px;
+}
+.new {
+    color: #8aa6a9;
+    font-weight: bold;
+}
+#news_1
+{
+    font-weight:bold;
+    font-size:14px;
+    margin-left:10px;	
+}
+
+#news_2
+{
+    font-weight:bold;
+    font-size:14px;
+    margin-left:10px;		
+}
+
+#news_3
+{
+    font-weight:bold;
+    font-size:14px;
+    margin-left:10px;		
+}
+
+#news_4
+{
+    font-weight:bold;
+    font-size:14px;
+    margin-left:10px;		
+}
+

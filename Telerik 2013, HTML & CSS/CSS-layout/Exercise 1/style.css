@@ -1,0 +1,26 @@
+.list-item {
+    color: #000000;
+    font-size: 14pt;
+    text-decoration: none;
+}
+.sublist-item:hover {
+    text-decoration: underline;
+}
+.sublist-item{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #CCC;
+    font-size: 12pt;
+}
+ul li {
+    list-style: none;
+}
+ul:nth-child(2n) {
+    display: none;
+}
+ul:nth-child(2n-1):hover + ul:nth-child(2n){
+    display: block;
+}
+a {
+    display: block;
+}

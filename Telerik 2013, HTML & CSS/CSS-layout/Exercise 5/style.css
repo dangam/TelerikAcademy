@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+header a {
+    color: #0066FF;
+    text-decoration: underline;
+}
+#content {
+    position: relative;
+    width: 680px;
+    margin: 10px auto;
+}
+img {
+    width: 100px;
+    height: 60px;
+}
+.clear {
+    clear: both;
+}
+#left-col {
+    width: 470px;
+    float: left;
+}
+#right-col{
+    padding-top: 100px;
+    float: right;
+}
+fieldset {
+    display: inline-block;
+    float: left;
+    width: 200px;
+}
+.fld-left-col {
+    float: left;
+}
+.fld-right-col {
+    float: left;
+}
+.fld-right-col div{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.tt {
+    float: left;
+}
+.nn {
+    float: right;
+}

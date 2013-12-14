@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 3</title>
+	<script type="text/javascript" src="../jquery.js"></script>
+</head>
+<body>
+   <table border="1">
+	   <thead>
+	   		<th> First Name </th>
+	   		<th> Last Name </th>
+	   		<th> Grade </th>
+	   </thead>
+	   <tbody>
+
+	   </tbody>
+   </table>
+    <script>
+       $(document).ready(function(){
+
+       		var students = new Array();
+       		students[0] = new Array('Gosho', 'Bojo', 'Tosho');
+       		students[1] = new Array('Petkov', 'Ivanov', 'Todorov');
+       		students[2] = new Array('3', '5', '6');
+
+       		for(var v in students){    		
+       			$('tbody').append('<tr>');
+       			for(var i = 0; i < 3; i++){
+       				$('tbody').append('<td>'+students[i][v]+'</td>');
+       			}
+       			$('tbody').append('</tr>');
+       		}
+       		     		
+       });
+    </script>
+</body>
+</html>

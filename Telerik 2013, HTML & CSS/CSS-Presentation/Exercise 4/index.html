@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Windows 8 Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="calculator-wrapper">
+			<div id="calculator-header">
+				<img src="calc.png" width="16" height="16" id="calc-ico" />
+				<span>Calculator</span>
+				<div id="control-box"> 
+					<ul id="controls">
+						<li id="minimize">--</li>
+						<li id="expand"></li>
+						<li id="close">X</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div id="calc-nav">
+                                    <a href="#"><u>V</u>iew</a>
+                                    <a href="#"><u>E</u>dit</a>
+                                    <a href="#"><u>H</u>elp</a>
+				</div>
+			</div>
+			<div id="calc-body">
+				<textarea cols="30" rows="3" id="calc-text">8854455</textarea>
+				<fieldset id="numbers">
+					<ul id="bin-list">
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+					</ul>
+					<ul id="dec-list">
+						<li>63</li>
+						<li>47</li>
+						<li>32</li>
+					</ul>
+					<ul id="bin-list-2">
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+					</ul>
+					<ul id="dec-list-2">
+						<li>31</li>
+						<li>15</li>
+						<li>0</li>
+					</ul>
+				</fieldset>
+				<div id="calc-options">
+					<fieldset id="numeric-syst">
+						<form>
+							<input type="radio" name="radio1" value="Hex" checked="checked" /> 
+							<input type="radio" name="radio1" value="Dec" /> 
+							<input type="radio" name="radio1" value="Oct" /> 
+							<input type="radio" name="radio1" value="Bin" /> 
+						</form>
+						<ul id="numeric-names">
+							<li>Hex</li>
+							<li>Dec</li>
+							<li>Oct</li>
+							<li>Bin</li>
+						</ul>
+					</fieldset>
+					<fieldset id="some-shit">
+						<form>
+							<input type="radio" name="radio1" value="qword" checked="checked" /> 
+							<input type="radio" name="radio1" value="dword" /> 
+							<input type="radio" name="radio1" value="word" /> 
+							<input type="radio" name="radio1" value="byte" /> 
+						</form>
+						<ul id="shit-names">
+							<li>Qword</li>
+							<li>Dword</li>
+							<li>Word</li>
+							<li>Byte</li>
+						</ul>
+					</fieldset>
+				</div>
+				<table id="calc-keyboard" border="0"  cellspacing="10">
+					<tbody>
+						<tr>
+							<td></td>
+							<td class="key-symb">Mod</td>
+							<td>A</td>
+							<td>MC</td>
+							<td>MR</td>
+							<td>MS</td>
+							<td>M+</td>
+							<td>M-</td>
+						</tr>
+						<tr>
+							<td class="key-symb">(</td>
+							<td class="key-symb">)</td>
+							<td>B</td>
+							<td class="key-symb">&larr;</td>
+							<td class="key-symb">CE</td>
+							<td class="key-symb">C</td>
+							<td class="key-symb">&plusmn;</td>
+							<td>&radic;</td>
+						</tr>
+						<tr>
+							<td class="key-symb">RoL</td>
+							<td class="key-symb">RoR</td>
+							<td>C</td>
+							<td class="key-nums">7</td>
+							<td class="key-nums">8</td>
+							<td class="key-nums">9</td>
+							<td class="key-symb">/</td>
+							<td>%</td>
+						</tr>
+						<tr>
+							<td class="key-symb">Or</td>
+							<td class="key-symb">Xor</td>
+							<td>D</td>
+							<td class="key-nums">4</td>
+							<td class="key-nums">5</td>
+							<td class="key-nums">6</td>
+							<td class="key-symb">*</td>
+							<td>1/x</td>
+						</tr>
+						<tr>
+							<td class="key-symb">Lsh</td>
+							<td class="key-symb">Rsh</td>
+							<td>E</td>
+							<td class="key-nums">1</td>
+							<td class="key-nums">2</td>
+							<td class="key-nums">3</td>
+							<td class="key-symb">-</td>
+							<td class="key-symb" rowspan="2">=</td>
+						</tr>
+						<tr>
+							<td class="key-symb">Not</td>
+							<td class="key-symb">And</td>
+							<td>F</td>
+							<td class="key-nums" colspan="2">0</td>
+							<td class="key-symb">.</td>
+							<td class="key-symb">+</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</body>
+</html>

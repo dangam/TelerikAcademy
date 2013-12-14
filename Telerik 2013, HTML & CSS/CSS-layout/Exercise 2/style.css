@@ -1,0 +1,63 @@
+body {
+    background-color: #eeeeee;
+}
+img {
+    width: 180px;
+    border: 1px solid #888;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+article {
+    width: 420px;
+    border: 1px solid #888;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.image {
+    display: inline-block;
+    float: left;
+}
+.info {
+    display: inline-block;
+    float: left;
+    width: 220px;
+    margin-left: 10px;
+}
+.clearfix {
+   zoom:1;
+}
+.clearfix:after {
+   content: ""; 
+   display: block; 
+   clear: both; 
+   height: 0; 
+}
+.buttons {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+.button {
+    display: inline-block; 
+    background: url(button.png) no-repeat;
+    background-color: #cc0002;
+    padding: 3px 20px 3px 20px;
+    color: #fff;
+    font-weight: normal;
+    border-top: 1px solid #c7585a;
+    border-left: 1px solid #c7585a;
+    border-bottom: 1px solid #660000;
+    border-right: 1px solid #660000;
+    font-size: 13px;
+}
